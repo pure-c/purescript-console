@@ -10,4 +10,4 @@ main_LD_FLAGS =
 
 $(eval $(call purs_mk_target,main,Test.Main,src))
 
-test: main
+check: main
